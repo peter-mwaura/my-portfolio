@@ -1,0 +1,250 @@
+/*GENERAL CSS*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*background-color: #545454;*/
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: row;
+  gap: 10px;
+  width: 80%;
+  margin: 40px auto;
+  /*background-image: linear-gradient(to bottom left, #fff 50%, #000 50%);*/
+}
+
+
+/*SIDEBAR CSS*/
+.portfolio__sidebar {
+  /*background-image: linear-gradient(to bottom left, #fff 50%, #000 20%);*/
+  /*background-color: white;*/
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px 0;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  /*position: fixed;*/
+}
+
+.portfolio__sidebar--dark-grey {
+  background-color: #0E0E10;
+}
+
+.portfolio__sidebar__image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #545454;
+  object-position: 0% 35%;
+}
+
+.portfolio__sidebar__name {
+  font-family: Cursive;
+  /*font-style: italic;*/
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.portfolio__sidebar__name span {
+  color: green;
+}
+
+.portfolio__sidebar__profession {
+  width: 200px;
+  height: 25px;
+  text-align: center;
+  border: 1px solid #545454;
+  border-radius: 10px;
+}
+
+.portfolio__sidebar__resume {
+  width: 200px;
+  height: 25px;
+  text-align: center;
+  border: 1px solid #545454;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio--dark-grey {
+  background-color: #545454;
+}
+
+.portfolio__sidebar__icons {
+  display: flex;
+  gap: 0px 30px;
+}
+
+.portfolio__sidebar__address {
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 15px;
+}
+
+.portfolio__sidebar__address-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio__sidebar__buttons { 
+  width: 200px;
+  height: 25px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+}
+
+.portfolio__sidebar__buttons--green-blue {
+  background-image: linear-gradient(to right, green, blue);
+  width: 200px;
+  height: 25px;
+}
+
+
+/*MAIN-SECTION CSS*/  
+.portfolio__main-section {
+  /*background-color: white;*/
+  /*background-image: linear-gradient(to bottom, #fff 50%, #000 50%);*/
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 75%;
+}
+
+header {
+  background-color: #545454;
+  padding: 10px 20px;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.portfolio__navlinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+
+.portfolio__about {
+  font-family: Cursive;
+  /*font-style: italic;*/
+  color: #fff;
+  font-size: 1.5rem;
+  border-bottom: 4px solid green;
+}
+
+.portfolio__resume {
+  font-size: 1.1rem;
+  margin-right: 30px;
+}
+
+.portfolio__projects {
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+
+.portfolio__aboutme {
+  margin: 20px 0 10px 0;
+}
+
+
+li:first-of-type {
+  margin-right: auto;
+}
+
+li, a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+
+.portfolio__work {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+}
+
+.portfolio__scope {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  /*grid-template-rows: 3;*/
+  margin: 20px 0 10px 0;
+}
+
+.portfolio__items_bg-color {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  background-color: #545454;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
+.portfolio__scope__item1 {
+  grid-column-start: 1;
+  grid-row-end: 1;
+}
+
+.portfolio__scope__item2 {
+  grid-column-start: 2;
+  grid-row-end: 1;
+}
+
+.portfolio__scope__item3 {
+  grid-column-start: 1;
+  grid-row-end: 2;
+}
+
+.portfolio__scope__item4 {
+  grid-column-start: 2;
+  grid-row-end: 2;
+}
+
+.portfolio__scope__item5 {
+  grid-column-start: 1;
+  grid-row-end: 3;
+}
+
+.portfolio__scope__item6 {
+  grid-column-start: 2;
+  grid-row-end: 3;
+}
+
+.portfolio__item-body {
+  text-align: justify;
+}
+
+.portfolio__item-body .title {
+  font-weight: 600;
+}
+
+
+/*MEDIA QUERIES*/
+@media(max-width: 780px) {
+  .portfolio {
+    flex-direction: column;
+  }  
+}
