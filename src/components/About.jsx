@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-4xl mt-20">
+        <p className="text-xl mt-20">
           I’m very passionate about writing code. I believe in the power of
           programming to transform and improve the lives of people around us and
           the world. With code, we have the power to make our dreams become a
@@ -23,7 +23,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-4xl">
+        <p className="text-xl">
           I’m very passionate about writing code. I believe in the power of
           programming to transform and improve the lives of people around us and
           the world. With code, we have the power to make our dreams become a
