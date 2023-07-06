@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../assets/heroImage.png";
+import Profile from "../assets/hacker_mind.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-12"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -16,11 +16,8 @@ const Home = () => {
           </h2>
 
           <p className="text-gray-500 py-4 max-w-md">
-            I’m very passionate about writing code. I believe in the power of
-            programming to transform and improve the lives of people around us
-            and the world. With code, we have the power to make our dreams
-            become a reality. Coding has given me a very new perspective on how
-            things are structured and how they work together to give us results.
+            Hi, my name is Peter Mwaura Karanja, an enthusiastic programmer
+            with 3+ years experience.
           </p>
           <div>
             <Link 

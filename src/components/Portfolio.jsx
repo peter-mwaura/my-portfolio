@@ -1,8 +1,9 @@
 import React from "react";
 import todoApp from "../assets/portfolio/todoApp.png";
-import onstartips from "../assets/portfolio/onstartips.png";
+import myPortfolio from "../assets/portfolio/my-portfolio.png";
 import technicalDocumentation from "../assets/portfolio/technicalDocumentation.png";
 import gridTestimonials from "../assets/portfolio/gridTestimonials.png";
+import catGallery from "../assets/portfolio/catGallery.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -14,9 +15,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: onstartips,
-      demo: "https://onstartips.com/",
-      github: "https://complete-tasks.netlify.app",
+      src: myPortfolio,
+      demo: "https://peter-mwaura.netlify.app/",
+      github: "https://github.com/peter-mwaura/my-portfolio",
     },
     {
       id: 3,
@@ -33,15 +34,9 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: todoApp,
-      demo: "https://onstartips.com/",
-      github: "https://github.com/peter-mwaura/Todolist-react-application",
-    },
-    {
-      id: 6,
-      src: onstartips,
-      demo: "https://onstartips.com/",
-      github: "https://complete-tasks.netlify.app",
+      src: catGallery,
+      demo: "https://peter-mwaura.github.io/flexbox-photo-gallery/",
+      github: "https://github.com/peter-mwaura/flexbox-photo-gallery",
     },
   ];
 

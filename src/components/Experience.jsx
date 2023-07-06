@@ -4,6 +4,7 @@ import html from "../assets/experience/html.png";
 import css from "../assets/experience/css.png";
 import tailwind from "../assets/experience/tailwind.png";
 import javascript from "../assets/experience/javascript.png";
+import typescript from "../assets/experience/typescript.png";
 import react from "../assets/experience/react.png";
 import nextjs from "../assets/experience/nextjs.png";
 import python from "../assets/experience/python.png";
@@ -37,24 +38,30 @@ const Experience = () => {
     },
     {
       id: 5,
-      src: react,
-      title: "React",
-      style: "shadow-blue-600",
-    },
+      src: typescript,
+      title: "Typescript",
+      style: "shadow-[#007acc]",
+    },    
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: react,
+      title: "React",
+      style: "shadow-[#61dbfb]",
     },
     {
       id: 7,
+      src: nextjs,
+      title: "Nextjs",
+      style: "shadow-white",
+    },
+    {
+      id: 8,
       src: python,
       title: "Python",
       style: "shadow-[#FFE873]",
     },
     {
-      id: 8,
+      id: 9,
       src: github,
       title: "Github",
       style: "shadow-gray-400",
@@ -68,7 +75,7 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500 p-2">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Experience
           </p>
           <p className="py-6">These are the technologies I've worked with</p>

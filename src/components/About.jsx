@@ -11,25 +11,14 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
+          <p className="text-xl py-6">
+            I’m very passionate about writing code. I believe in the power of
+            programming to transform and improve the lives of people around us and
+            the world. With code, we have the power to make our dreams become a
+            reality. Coding has given me a very new perspective on how things are
+            structured and how they work together to give us results.
+          </p>
         </div>
-
-        <p className="text-xl mt-20">
-          I’m very passionate about writing code. I believe in the power of
-          programming to transform and improve the lives of people around us and
-          the world. With code, we have the power to make our dreams become a
-          reality. Coding has given me a very new perspective on how things are
-          structured and how they work together to give us results.
-        </p>
-
-        <br />
-
-        <p className="text-xl">
-          I’m very passionate about writing code. I believe in the power of
-          programming to transform and improve the lives of people around us and
-          the world. With code, we have the power to make our dreams become a
-          reality. Coding has given me a very new perspective on how things are
-          structured and how they work together to give us results.
-        </p>
       </div>
     </div>
   );
