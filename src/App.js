@@ -1,23 +1,16 @@
-import About from "./components/About";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
-import Experience from "./components/Experience";
-import Contact from "./components/Contact";
-import SocialLinks from "./components/SocialLinks";
+import { Navbar, Home, About, Skills, Work, Contact } from './components';
 
-function App() {
-  return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Portfolio />
-      <Experience />
-      <Contact />
-      <SocialLinks />
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div>
+            <Navbar />
+            <Home />
+            <About />
+            <Skills />
+            <Work />
+            <Contact />
+        </div>
+    );
+};
 
 export default App;

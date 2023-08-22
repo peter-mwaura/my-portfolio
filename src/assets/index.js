@@ -1,0 +1,15 @@
+export { default as html } from './skills/html.png';
+export { default as css } from './skills/css.png';
+export { default as tailwind } from './skills/tailwind.png';
+export { default as javascript } from './skills/javascript.png';
+export { default as typescript } from './skills/typescript.png';
+export { default as react } from './skills/react.png';
+export { default as python } from './skills/python.png';
+export { default as github } from './skills/github.png';
+export { default as todoApp } from './work/completetasks.png';
+export { default as myPortfolio } from './work/myportfolio.png';
+export { default as sportStats } from './work/sportstats.png';
+export { default as gitHubCardsApp } from './work/githubprofilecards.png';
+export { default as technicalDocumentation } from './work/javascriptdocumentation.png';
+export { default as gridTestimonials } from './work/testimonials.png';
+export { default as catGallery } from './work/catgallery.png';
