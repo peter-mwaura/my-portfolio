@@ -6,15 +6,15 @@ const Home = () => {
     return (
         <div
             name="home"
-            className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 px-4"
+            className="w-full h-screen px-4 bg-gradient-to-b from-black via-black to-gray-800"
         >
             {/* Container */}
             <div className="max-w-[1000px] mx-auto flex flex-col justify-center h-full">
                 <p className="text-gray-500"> Hi, my name is</p>
-                <h1 className="text-4xl sm:text-7xl font-bold text-white">
+                <h1 className="text-4xl font-bold text-white sm:text-7xl">
                     Peter Mwaura
                 </h1>
-                <h2 className="text-4xl sm:text-7xl font-bold text-gray-500">
+                <h2 className="text-4xl font-bold text-gray-500 sm:text-7xl">
                     I'm a Front-End Developer
                 </h2>
                 <p className="text-gray-500 py-4 max-w-[700px]">
@@ -24,9 +24,9 @@ const Home = () => {
                 </p>
                 <div>
                     <Link to="work" smooth={true} duration={500}>
-                        <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-gray-500 hover:border-gray-500 rounded-md">
+                        <button className="flex items-center px-6 py-3 my-2 text-white border-2 rounded-md group hover:bg-gray-500 hover:border-gray-500">
                             View Work
-                            <span className="group-hover:rotate-90 duration-300">
+                            <span className="duration-300 group-hover:rotate-90">
                                 <HiArrowNarrowRight className="ml-3" />
                             </span>
                         </button>
