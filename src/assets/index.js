@@ -8,3 +8,4 @@ export { default as python } from './skills/python.png';
 export { default as github } from './skills/github.png';
 export { default as personalTaskManager } from './work/my-personal-task-manager.png';
 export { default as gridTestimonials } from './work/testimonials.png';
+export { default as wezago } from './work/wezago.png';
