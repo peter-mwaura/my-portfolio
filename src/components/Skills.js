@@ -8,6 +8,7 @@ import {
     react,
     python,
     github,
+    mongodb,
 } from '../assets';
 
 const Skills = () => {
@@ -60,17 +61,23 @@ const Skills = () => {
             title: 'Github',
             style: 'shadow-gray-400',
         },
+        {
+            id: 9,
+            src: mongodb,
+            title: 'MongoDB',
+            style: 'shadow-green-400',
+        },
     ];
 
     return (
         <div
             name="skills"
-            className="w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white"
+            className="w-full h-screen text-white bg-gradient-to-b from-black to-gray-800"
         >
             {/* Container */}
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div>
-                    <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+                    <p className="inline text-4xl font-bold border-b-4 border-gray-500">
                         Skills
                     </p>
                     <p className="py-4">
@@ -78,7 +85,7 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+                <div className="grid w-full grid-cols-2 gap-4 py-8 text-center sm:grid-cols-4">
                     {skills.map(({ id, src, title, style }) => (
                         <div
                             key={id}
