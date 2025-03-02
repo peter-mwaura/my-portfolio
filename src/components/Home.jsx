@@ -15,12 +15,10 @@ const Home = () => {
                     Peter Mwaura
                 </h1>
                 <h2 className="text-4xl font-bold text-gray-500 sm:text-7xl">
-                    I'm a Front-End Developer
+                    a Software Developer
                 </h2>
                 <p className="text-gray-500 py-4 max-w-[700px]">
-                    I'm a front-end developer who strives to build exceptional
-                    applications. Currently, I'm focused on building responsive
-                    front-end web applications.
+                    who strives to build exceptional applications.
                 </p>
                 <div>
                     <Link to="work" smooth={true} duration={500}>

@@ -6,9 +6,11 @@ import {
     javascript,
     typescript,
     react,
-    python,
+    nextjs,
+    nestjs,
+    postgresql,
+    prisma,
     github,
-    mongodb,
 } from '../assets';
 
 const Skills = () => {
@@ -39,33 +41,45 @@ const Skills = () => {
         },
         {
             id: 5,
-            src: react,
-            title: 'React',
-            style: 'shadow-[#61dbfb]',
-        },
-        {
-            id: 6,
             src: typescript,
             title: 'Typescript',
             style: 'shadow-[#007acc]',
         },
         {
+            id: 6,
+            src: react,
+            title: 'React',
+            style: 'shadow-[#61dbfb]',
+        },
+        {
             id: 7,
-            src: python,
-            title: 'Python',
-            style: 'shadow-[#FFE873]',
+            src: nextjs,
+            title: 'Nextjs',
+            style: 'shadow-[#007acc]',
         },
         {
             id: 8,
-            src: github,
-            title: 'Github',
-            style: 'shadow-gray-400',
+            src: nestjs,
+            title: 'Nestjs',
+            style: 'shadow-[#E0234E]',
         },
         {
             id: 9,
-            src: mongodb,
-            title: 'MongoDB',
-            style: 'shadow-green-400',
+            src: postgresql,
+            title: 'PostgreSQL',
+            style: 'shadow-[#008bb9]',
+        },
+        {
+            id: 10,
+            src: prisma,
+            title: 'PrismaORM',
+            style: 'shadow-[#90EE90]',
+        },
+        {
+            id: 11,
+            src: github,
+            title: 'GitHub',
+            style: 'shadow-gray-400',
         },
     ];
 
