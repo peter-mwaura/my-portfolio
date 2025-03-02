@@ -11,6 +11,7 @@ import {
     postgresql,
     prisma,
     github,
+    docker,
 } from '../assets';
 
 const Skills = () => {
@@ -80,6 +81,12 @@ const Skills = () => {
             src: github,
             title: 'GitHub',
             style: 'shadow-gray-400',
+        },
+        {
+            id: 12,
+            src: docker,
+            title: 'Docker',
+            style: 'shadow-[#0DB7ED]',
         },
     ];
 
