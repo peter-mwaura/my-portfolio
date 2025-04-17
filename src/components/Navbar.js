@@ -43,19 +43,19 @@ const Navbar = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: './resume.pdf',
+            href: './PeterMwauraKaranjaResume.pdf',
             download: true,
         },
     ];
 
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-black">
-            <div className="text-3xl font-signature text-white">
+            <div className="text-3xl text-white font-signature">
                 <h1>Peter</h1>
             </div>
 
             {/* menu */}
-            <ul className="hidden md:flex text-gray-500">
+            <ul className="hidden text-gray-500 md:flex">
                 <li>
                     <Link to="home" smooth={true} duration={500}>
                         Home
@@ -84,7 +84,7 @@ const Navbar = () => {
             </ul>
 
             {/* Hamburger */}
-            <div onClick={handleClick} className="md:hidden z-10 text-gray-500">
+            <div onClick={handleClick} className="z-10 text-gray-500 md:hidden">
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
 
@@ -159,7 +159,7 @@ const Navbar = () => {
                             >
                                 <a
                                     href={href}
-                                    className="flex justify-between items-center w-full text-white"
+                                    className="flex items-center justify-between w-full text-white"
                                     download={download}
                                     target="_blank"
                                     rel="noreferrer"
