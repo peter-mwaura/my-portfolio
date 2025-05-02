@@ -10,13 +10,13 @@ const Work = () => {
             demo: 'https://my-personal-task-manager.netlify.app/',
             github: 'https://github.com/peter-mwaura/personal-task-manager',
         },
-        // {
-        //     id: 2,
-        //     src: wezago,
-        //     stack: 'Python Flask',
-        //     demo: 'https://wezago.com/devices/cbcd5df8-b794-4d40-9d81-a772f9e622d1',
-        //     github: 'https://gitlab.com/peter7938/mpesajson',
-        // },
+        {
+            id: 2,
+            src: wezago,
+            stack: 'Python Flask',
+            demo: 'https://wezago.com/devices/cbcd5df8-b794-4d40-9d81-a772f9e622d1',
+            github: 'https://gitlab.com/peter7938/mpesajson',
+        },
     ];
 
     return (
