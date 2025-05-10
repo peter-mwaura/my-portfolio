@@ -10,5 +10,6 @@ export { default as github } from './skills/github.png';
 export { default as prisma } from './skills/prisma.png';
 export { default as postgresql } from './skills/postgresql.png';
 export { default as docker } from './skills/docker.png';
+export { default as allatersacco } from './work/allater-sacco-web.png';
 export { default as personalTaskManager } from './work/my-personal-task-manager.png';
 export { default as wezago } from './work/wezago.png';
