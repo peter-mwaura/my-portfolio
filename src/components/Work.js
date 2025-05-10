@@ -1,21 +1,28 @@
 import React from 'react';
-import { personalTaskManager, wezago } from '../assets';
+import { allatersacco, personalTaskManager, wezago } from '../assets';
 
 const Work = () => {
     const work = [
         {
             id: 1,
-            src: personalTaskManager,
-            stack: 'Reactjs, Redux, Firebase',
-            demo: 'https://my-personal-task-manager.netlify.app/',
-            github: 'https://github.com/peter-mwaura/personal-task-manager',
+            src: allatersacco,
+            stack: 'Nextjs, Nestjs, Postgres',
+            demo: 'https://allater-sacco-web.vercel.app/dashboard/',
+            github: 'https://github.com/peter-mwaura/allater-sacco-web/',
         },
         {
             id: 2,
+            src: personalTaskManager,
+            stack: 'Reactjs, Redux, Firebase',
+            demo: 'https://my-personal-task-manager.netlify.app/',
+            github: 'https://github.com/peter-mwaura/personal-task-manager/',
+        },
+        {
+            id: 3,
             src: wezago,
             stack: 'Python Flask',
-            demo: 'https://wezago.com/devices/cbcd5df8-b794-4d40-9d81-a772f9e622d1',
-            github: 'https://gitlab.com/peter7938/mpesajson',
+            demo: 'https://wezago.com/devices/cbcd5df8-b794-4d40-9d81-a772f9e622d1/',
+            github: 'https://gitlab.com/peter7938/mpesajson/',
         },
     ];
 
