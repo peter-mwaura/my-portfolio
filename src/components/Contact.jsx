@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Contact = () => {
     return (
@@ -16,7 +15,7 @@ const Contact = () => {
                         Contact
                     </p>
                     <p className="text-gray-500 py-4">
-                        Submit the form below or send me an email -
+                        Fill and Submit the form below or send me an email -
                         peterkaranjagitz@gmail.com
                     </p>
                 </div>
