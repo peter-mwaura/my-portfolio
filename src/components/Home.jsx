@@ -1,4 +1,3 @@
-import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 
@@ -12,7 +11,7 @@ const Home = () => {
             <div className="max-w-[1000px] mx-auto flex flex-col justify-center h-full">
                 <p className="text-gray-500"> Hi, my name is</p>
                 <h1 className="text-4xl font-bold text-white sm:text-7xl">
-                    Peter Mwaura
+                    Peter Mwaura,
                 </h1>
                 <h2 className="text-4xl font-bold text-gray-500 sm:text-7xl">
                     a Software Developer
