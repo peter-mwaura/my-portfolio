@@ -1,4 +1,3 @@
-import React from 'react';
 
 const About = () => {
     return (
@@ -18,7 +17,7 @@ const About = () => {
                 <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
                     <div className="text-4xl font-bold sm:text-right">
                         <p>
-                            Hi! I'm Peter, nice to meet you. Please take a look
+                            Hi! I'm Peter, nice to meet you. Feel free take a look
                             around.
                         </p>
                     </div>
