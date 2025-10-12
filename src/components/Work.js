@@ -1,4 +1,3 @@
-import React from 'react';
 import { allatersacco, personalTaskManager, wezago } from '../assets';
 
 const Work = () => {
@@ -36,7 +35,7 @@ const Work = () => {
                     <p className="inline text-4xl font-bold border-b-4 border-gray-500">
                         Work
                     </p>
-                    <p className="py-4">Check out some of my recent work</p>
+                    <p className="py-4">Here are some of my recent work</p>
                 </div>
 
                 {/* Container */}
