@@ -23,7 +23,7 @@ const About = () => {
                     </div>
                     <div>
                         <p>
-                            I believe in the power of programming to transform
+                            I believe in using programming to transform
                             and improve the lives of people around us and the
                             world. With code, we have the power to make our
                             dreams become a reality.
